@@ -9,3 +9,21 @@ For this reason, we created stegoKick to blindly disrupt any image-based stegoma
 Our active attack allows us to disrupt the most famous steganographic tool (f5, Steghide, openstego, ...) even the most sophisticated algorithm based on matrix encryption, wet-papers, etc. (Hill, Hugo, etc.)
 
 # Usage & Parameters
+
+```
+examples
+```
+
+# Examples - Breaking steganography
+
+```
+examples
+```
+
+# Future work. Doing
+- We are working to support the ICAP protocol. Stegokick using ICAP could connect to other systems to block stegomalware in real traffic.
+
+
+# Author & license
+
+This project has been developed by Dr. Alfonso Muñoz and Dr. Manuel Urueña The code is released under the GNU General Public License v3.
