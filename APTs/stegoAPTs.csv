@@ -1,0 +1,276 @@
+APT Name,State,APT records,Malware,Malware type,Malware records,Reports,Date,Stego technique,Cover file,Cover server,Data encoding,Hidden data,Dropper,Targeted countries,Targeted sectors,Related to,Africa,Asia,North America,South America,Europe,Oceania,#Continents
+,,,Serpent,Backdoor,,https://www.proofpoint.com/us/blog/threat-insight/serpent-no-swiping-new-backdoor-targets-french-entities-unique-attack-chain,21/03/2022,EOF,PNG,"hxxps://www.fhccu.com/images/ship3.jpg
+hxxps://www.fhccu.com/images/7.jpg",Base64,"Powershell, Python",Maldoc,"France, Europe","Construction, Real estate, Government",,0,0,0,0,1,0,1
+,,,SteamHide,In development,,https://web.archive.org/web/20210718145830/hxxps://www.gdatasoftware.com/blog/steamhide-malware-in-profile-images,06/08/2021,EXIF ICC Color Profile,JPEG,hxxps://steamcommunity.com/id/advance40/images/,3DES encrypted,EXE,,,,,0,0,0,0,0,0,0
+APT40/Leivathan/Kryptonite Panda/Bronze Mohawl/Gadolinium,China,"https://attack.mitre.org/groups/G0065/
+https://malpedia.caad.fkie.fraunhofer.de/actor/leviathan",,Espionage,,"https://www.justice.gov/opa/press-release/file/1412916/download
+https://us-cert.cisa.gov/ncas/alerts/aa21-200a",19/07/2021,,,"Github, Dropbox",,"JavaScript malware, Exfil data",,"Belgium, Cambodia, Germany, Hong Kong, Malaysia, Norway, Philippines, Saudi Arabia, Switzerland, USA, UK, Europe, Asia, North America","Defense, Engineering, Government, Manufacturing, Research, Shipping and Logistics, Transportation, Maritime-related",,0,1,1,0,1,0,3
+APT29/CVR/UNC2452/Cozy Bear/The Dukes/Nobelium/Yttrium/Dark Halo/StellarParticle,Russia,"https://attack.mitre.org/groups/G0016/
+https://malpedia.caad.fkie.fraunhofer.de/actor/unc2452
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=APT%2029%2C%20Cozy%20Bear%2C%20The%20Dukes&n=1",RainDrop,Loader,https://malpedia.caad.fkie.fraunhofer.de/details/win.raindrop,https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/solarwinds-raindrop-malware,18/06/2021,Raw,DLL,,AES-CBC + LZMA + XOR,Shellcode,,"Australia, Azerbaijan, Belarus, Belgium, Brazil, Bulgaria, Canada, Chechnya, China, Cyprus, Czech Republic, France, Georgia, Germany, Hungary, India, Ireland, Israel, Japan, Kazakhstan, Kyrgyzstan, Latvia, Lebanon, Lithuania, Luxembourg, Mexico, Montenegro, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Russia, Slovenia, Spain, South Korea, Turkey, Uganda, UK, Ukraine, USA, Uzbekistan, NATO, Oceania, Asia, Europe, South America, Africa, North America","Defense, Energy, Government, Law enforcement, Media, NGOs, Pharmaceutical, Telecommunications, Transportation, Think Tanks, Imagery, Embassies, Political parties, Russian drug dealers, Technology, consulting","SolarWinds, Orion, TearDrop",1,1,1,1,1,1,6
+APT38/Lazarus Group/Hidden Cobra/Unit 121/Dark Seoul/Hastati Group,North Korea,"https://attack.mitre.org/groups/G0032/
+https://malpedia.caad.fkie.fraunhofer.de/actor/lazarus_group
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=Lazarus%20Group%2C%20Hidden%20Cobra%2C%20Labyrinth%20Chollima&n=1",CookieTime/LCPDot,C2 communications,"https://apt.thaicert.or.th/cgi-bin/listgroups.cgi?t=CookieTime
+https://malpedia.caad.fkie.fraunhofer.de/details/win.lcpdot","https://securelist.com/apt-trends-report-q1-2021/101967/
+https://blogs.jpcert.or.jp/en/2021/01/Lazarus_malware2.html",27/04/2021,Fake header/EOF?,gif,C2,,"C2 Commands, Data exfil",,"Australia, Bangladesh, Brazil, Canada, Chile, China, Ecuador, France, Germany, Guatemala, Hong Kong, India, Israel, Japan, Mexico, Philippines, Poland, Russia, South Africa, South Korea, Taiwan, Thailand, UK, USA, Vietnam, Oceania, Asia, South America, Europe, Africa, Northe America","Aerospace, Engineering, Financial, Government, Media, Shipping and Logistics, Technology, BitCoin exchanges",,1,1,0,1,1,1,5
+APT38/Lazarus Group/Hidden Cobra/Unit 121/Dark Seoul/Hastati Group,North Korea,"https://attack.mitre.org/groups/G0032/
+https://malpedia.caad.fkie.fraunhofer.de/actor/lazarus_group
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=Lazarus%20Group%2C%20Hidden%20Cobra%2C%20Labyrinth%20Chollima&n=1", ,Loader,,"https://blog.malwarebytes.com/malwarebytes-news/2021/04/lazarus-apt-conceals-malicious-code-within-bmp-file-to-drop-its-rat/
+https://duo.com/decipher/lazarus-apt-cloaks-payloads-in-bmp-image-files",19/04/2021,EOF,"bmp, exe",image in Maldoc,Zip,Javascript,Word with Macro,"Australia, Bangladesh, Brazil, Canada, Chile, China, Ecuador, France, Germany, Guatemala, Hong Kong, India, Israel, Japan, Mexico, Philippines, Poland, Russia, South Africa, South Korea, Taiwan, Thailand, UK, USA, Vietnam, Oceania, Asia, South America, Europe, Africa, Northe America","Aerospace, Engineering, Financial, Government, Media, Shipping and Logistics, Technology, BitCoin exchanges",BISTROMATH RAT,1,1,0,1,1,1,5
+,Armenia,,Fairfax,RAT,,https://blog.malwarebytes.com/threat-analysis/2021/03/new-steganography-attack-targets-azerbaijan/,05/03/2021,"Fake ""puNk"" chunk",png,Image in maldoc,ZIP file,Executable,Maldoc,"Azerbaijan, Asia",Defense,,0,1,0,0,0,0,1
+APT36/Transparent Tribe/Mythic Leopard/ProjectM/TMP.Lapis/Green Havildar/COPPER FIELDSTONE ,Pakistan,"https://malpedia.caad.fkie.fraunhofer.de/actor/operation_c-major
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=Transparent%20Tribe%2C%20APT%2036&n=1",ObliqueRAT,RAT,https://malpedia.caad.fkie.fraunhofer.de/details/win.oblique_rat,https://blog.talosintelligence.com/2021/02/obliquerat-new-campaign.html,02/03/2021,LSB?,bmp,Compromised websites,ZIP file,Executable,Maldoc,"Afghanistan, Australia, Austria, Azerbaijan, Belgium, Botswana, Bulgaria, Canada, China, Czech Republic, Germany, India, Iran, Japan, Kazakhstan, Kenya, Malaysia, Mongolia, Nepal, Netherlands, Oman, Pakistan, Romania, Saudi Arabia, Spain, Sweden, Thailand, Turkey, UAE, UK, USA, Asia, Oceania, Europe, Africa, North America","Defense, Embassies, Government.","CrimsonRAT, Gorgon Group",1,1,1,0,1,1,5
+MuddyWater/Static Kitten/Seedworm/Mercury/Earth Vetala/Cobalt Ulster,Iran,"https://attack.mitre.org/groups/G0069/
+https://malpedia.caad.fkie.fraunhofer.de/actor/muddywater
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=MuddyWater%2C%20Seedworm%2C%20TEMP%2EZagros%2C%20Static%20Kitten&n=1",POWERSTATS,Backdoor,"https://attack.mitre.org/software/S0223/
+https://malpedia.caad.fkie.fraunhofer.de/details/ps1.powerstats","
+https://cyware.com/news/new-malware-strain-abuses-github-and-imgur-e29bc6f6
+https://www.bleepingcomputer.com/news/security/github-hosted-malware-calculates-cobalt-strike-payload-from-imgur-pic/",28/12/2020,LSB B4G4,png,hxxps://i.imgur.com/EPUWBt3.png,,"Javascript
+Cobalt Strike Beacon",Maldoc,"Afghanistan, Armenia, Austria, Azerbaijan, Bahrain, Belarus, Egypt, Georgia, India, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, Mali, Netherlands, Oman, Pakistan, Russia, Saudi Arabia, Tajikistan, Tunisia, Turkey, UAE, Ukraine, USA, Asia, Europe, Africa, North America","Crypto-Currency, Defense, Education, Energy, Financial, Food and Agriculture, Gaming, Government, Healthcare, High-Tech, IT, Media, NGOs, Oil and gas, Transportation",FIN7,1,1,1,0,1,0,4
+APT29/CVR/UNC2452/Cozy Bear/The Dukes/Nobelium/Yttrium/Dark Halo/StellarParticle,Russia,"https://attack.mitre.org/groups/G0016/
+https://malpedia.caad.fkie.fraunhofer.de/actor/unc2452
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=APT%2029%2C%20Cozy%20Bear%2C%20The%20Dukes&n=1",Teardrop,Dropper,https://malpedia.caad.fkie.fraunhofer.de/details/win.teardrop,https://www.mandiant.com/resources/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor,13/12/2020,Fake jpg header,jpg,,,Executable,,"Australia, Azerbaijan, Belarus, Belgium, Brazil, Bulgaria, Canada, Chechnya, China, Cyprus, Czech Republic, France, Georgia, Germany, Hungary, India, Ireland, Israel, Japan, Kazakhstan, Kyrgyzstan, Latvia, Lebanon, Lithuania, Luxembourg, Mexico, Montenegro, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Russia, Slovenia, Spain, South Korea, Turkey, Uganda, UK, Ukraine, USA, Uzbekistan, NATO, Oceania, Asia, Europe, South America, Africa, North America","Defense, Energy, Government, Law enforcement, Media, NGOs, Pharmaceutical, Telecommunications, Transportation, Think Tanks, Imagery, Embassies, Political parties, Russian drug dealers, Technology, consulting",,1,1,1,1,1,1,6
+APT29/CVR/UNC2452/Cozy Bear/The Dukes/Nobelium/Yttrium/Dark Halo/StellarParticle,Russia,"https://attack.mitre.org/groups/G0016/
+https://malpedia.caad.fkie.fraunhofer.de/actor/unc2452
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=APT%2029%2C%20Cozy%20Bear%2C%20The%20Dukes&n=1",SunBurst,Backdoor,https://malpedia.caad.fkie.fraunhofer.de/details/win.sunburst,https://www.mandiant.com/resources/evasive-attacker-leverages-solarwinds-supply-chain-compromises-with-sunburst-backdoor,13/12/2020,"GUID, Hex strings",XML,hxxps://downloads.solarwinds.com,XOR encrypted + DEFLATE,C2 Commands,Supply chain,"Australia, Azerbaijan, Belarus, Belgium, Brazil, Bulgaria, Canada, Chechnya, China, Cyprus, Czech Republic, France, Georgia, Germany, Hungary, India, Ireland, Israel, Japan, Kazakhstan, Kyrgyzstan, Latvia, Lebanon, Lithuania, Luxembourg, Mexico, Montenegro, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Russia, Slovenia, Spain, South Korea, Turkey, Uganda, UK, Ukraine, USA, Uzbekistan, NATO, Oceania, Asia, Europe, South America, Africa, North America","Defense, Energy, Government, Law enforcement, Media, NGOs, Pharmaceutical, Telecommunications, Transportation, Think Tanks, Imagery, Embassies, Political parties, Russian drug dealers, Technology, consulting","SolarWinds, Orion, Teardrop, Cobalt Strike Beacon",1,1,1,1,1,1,6
+DeathStalker/Evilnum,,https://malpedia.caad.fkie.fraunhofer.de/actor/evilnum,PowerPepper,Backdoor,"https://attack.mitre.org/software/S0348/
+https://malpedia.caad.fkie.fraunhofer.de/details/win.cardinal_rat
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=Evilnum&n=1","https://securelist.com/what-did-deathstalker-hide-between-two-ferns/99616/
+https://securelist.com/deathstalker-mercenary-triumvirate/98177/",03/12/2020,"DNS TXT
+LSB B4G4","DNS
+PNG",,,"C2 commands
+Powershell","Maldoc, .LNK","Albania, Australia, Belgium, Canada, Cyprus, Czech Republic, Israel, Italy, UK, Ukraine, Switzerland, Turkey, Russia, Lebanon, Jordan, AUE, China, Taiwan, India, Argentina, Europe, Oceania, North America, Asia, South America",FinTech,Janicab,0,1,1,1,1,1,0
+Tiny Spider,,"https://malpedia.caad.fkie.fraunhofer.de/actor/tiny_spider
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=Tiny%20Spider",TinyPOS/AbaddonPOS/PinkKite,POS Malware,"https://malpedia.caad.fkie.fraunhofer.de/details/win.abaddon_pos
+https://apt.thaicert.or.th/cgi-bin/listgroups.cgi?t=TinyPOS","https://blogs.vmware.com/security/2020/05/tau-technical-report-new-attack-combines-tinypos-with-living-off-the-land-techniques-for-scraping-credit-card-data.html
+https://norfolkinfosec.com/tinypos-and-prolocker-an-odd-relationship/
+https://www.menaisc.com/2019-Presentations/4-Spider%20Tales-financial%20Crimes%20Activity%20in%202019.pdf",02/11/2020,EOF,"PNG, BMP",Image saved by dropper,,Powershell,,"Europe, Russia, Asia","Hospitality, Retail",ProLocker,0,1,0,0,1,0,2
+,,,Purple Fox,Exploit Kit,https://malpedia.caad.fkie.fraunhofer.de/details/win.purplefox,"https://www.sentinelone.com/labs/purple-fox-ek-new-cves-steganography-and-virtualization-added-to-attack-flow/
+https://web.archive.org/web/20210623141005/hxxps://s.tencent.com/research/report/1322.html",19/10/2020,LSB B4G4,PNG,hxxp://rawcdn.githack.cyou,,Powershell,,"China, USA, Brazil, India, Asia, North America, South America",,,0,1,1,1,0,0,3
+,Russia,,MontysThree/MT3,Loader,https://malpedia.caad.fkie.fraunhofer.de/details/win.montysthree,https://ics-cert.kaspersky.com/reports/2020/10/08/montysthree-industrial-espionage-with-steganography-and-a-russian-accent-on-both-sides/,08/10/2020,LSB1,bmp,,XOR encrypted,Configuration,RAR SFX,"Russian-speaking countries, Asia, Europe",Industrial,,0,1,0,0,1,0,2
+,,,DarkTrack RAT,RAT,,https://www.subexsecure.com/pdf/malware-reports/August-2020/DarkTrack-Report.pdf,25/08/2020,EOF,png,,Rar,Executables,,,,,0,0,0,0,0,0,0
+Mallard Spider/Gold Lagoon,,"https://malpedia.caad.fkie.fraunhofer.de/actor/mallard_spider
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=Mallard%20Spider",ProLock/PwndLocker,Ransomware,"https://malpedia.caad.fkie.fraunhofer.de/details/win.pwndlocker
+https://apt.thaicert.or.th/cgi-bin/listgroups.cgi?t=ProLock","https://news.sophos.com/en-us/2020/07/27/prolock-ransomware-gives-you-the-first-8-kilobytes-of-decryption-for-free/
+https://nakedsecurity.sophos.com/2020/07/27/prolock-ransomware-new-report-reveals-the-evolution-of-a-threat/
+https://thehackernews.com/2020/08/qakbot-banking-trojan.html
+https://twitter.com/1zrr4h/status/1397201093105438730",27/07/2020,LSB8,BMP,,,EXE,"RDP, QakBot","USA, India, Israel, Italy, Germany, Turkey, Taiwan, Canada, Austria, UK, Spain, North America, Asia, Europe",,QakBot,0,1,1,0,1,0,3
+MageCart,,https://malpedia.caad.fkie.fraunhofer.de/actor/magecart,,Skimmer,,"https://blog.malwarebytes.com/threat-analysis/2019/12/new-evasion-techniques-found-in-web-skimmers/
+https://blog.malwarebytes.com/hacking-2/2020/03/criminals-hack-tupperware-website-with-credit-card-skimmer/
+https://blog.sucuri.net/2020/07/skimmers-in-images-github-repos.html
+https://maxkersten.nl/2020/05/06/backtracking-magecart-infections/",22/07/2020,EOF,"jpg, png",,,Javascript,,"USA, India, UK, Germany, Australia, Brasil, France, Italy, Netherlands, Canada, Spain, North America, Asia, Oceania, South America, Europe",,,0,1,1,1,1,1,5
+APT34/OilRig/Helix Kitten/Twisted Kitten/Cobalt Gypsy/IRN2/Cranbus,Iran,"https://attack.mitre.org/groups/G0049/
+https://malpedia.caad.fkie.fraunhofer.de/actor/oilrig
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=OilRig%2C%20APT%2034%2C%20Helix%20Kitten%2C%20Chrysene&n=1",RDAT,Backdoor,"https://attack.mitre.org/software/S0495/
+https://malpedia.caad.fkie.fraunhofer.de/details/win.rdat",https://unit42.paloaltonetworks.com/oilrig-novel-c2-channel-steganography/,22/07/2020,LSB r2g3b3,bmp,Email server,Base64,C2 command and Exfil data by email,,"Azerbaijan, Iraq, Israel, Kuwait, Lebanon, Mauritius, Pakistan, Qatar, Saudi Arabia, Turkey, UAE, UK, USA, Asia, Africa, Europe, North America","Aviation, Chemical, Education, Energy, Financial, Government, High-Tech, Hospitality, Oil and gas, Telecommunications",,1,1,1,0,1,0,4
+APT34/OilRig/Helix Kitten/Twisted Kitten/Cobalt Gypsy/IRN2/Cranbus,Iran,"https://attack.mitre.org/groups/G0049/
+https://malpedia.caad.fkie.fraunhofer.de/actor/oilrig
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=OilRig%2C%20APT%2034%2C%20Helix%20Kitten%2C%20Chrysene&n=1",RDAT,Backdoor,"https://attack.mitre.org/software/S0495/
+https://malpedia.caad.fkie.fraunhofer.de/details/win.rdat",https://unit42.paloaltonetworks.com/oilrig-novel-c2-channel-steganography/,22/07/2020,DNS TXT,DNS,C2 Domain,Base32 or Modified Base64 + AES encrypted,C2 command and Exfil data,,"Azerbaijan, Iraq, Israel, Kuwait, Lebanon, Mauritius, Pakistan, Qatar, Saudi Arabia, Turkey, UAE, UK, USA, Asia, Africa, Europe, North America","Aviation, Chemical, Education, Energy, Financial, Government, High-Tech, Hospitality, Oil and gas, Telecommunications",,1,1,1,0,1,0,4
+MageCart Group 9,,,,Skimmer,,https://blog.malwarebytes.com/threat-analysis/2020/06/web-skimmer-hides-within-exif-metadata-exfiltrates-credit-cards-via-image-files/,27/06/2020,EXIF Copyright Comment,jpg,,,Javascript,,,,,0,0,0,0,0,0,0
+,,,Glupteba,Bot,https://malpedia.caad.fkie.fraunhofer.de/details/win.glupteba,"https://nakedsecurity.sophos.com/2020/06/24/glupteba-the-bot-that-gets-secret-messages-from-the-bitcoin-blockchain/
+https://www.trendmicro.com/en_us/research/19/i/glupteba-campaign-hits-network-routers-and-updates-cc-servers-with-data-from-bitcoin-transactions.html
+https://habr.com/ru/company/solarsecurity/blog/578900/",24/06/2020,Bitcoin Transaction Comment,RETURN comment,Bitcoin blockchain,AES256-GCM encrypted,,,"Brazil, Ukraine, Indonesia, Poland, India, Czech Republic, Bangladesh, Italy, USA, Spain, Lebanon, Albania, Mexico, South America, Europe, Asia, North America",End Users,"TDL4, Meris",0,1,1,1,1,0,4
+SixLittleMonkeys/Microcin/Mikroceen,China,"https://malpedia.caad.fkie.fraunhofer.de/actor/microcin
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=Mikroceen",,Espionage,,https://securelist.com/microcin-is-here/97353/,19/06/2020,LSB4+offset,BMP,cloudinary.com,XOR encrypted,Configuration,,"Belarus, Mongolia, Russia, Europe, Asia","Defense, Government, Oil and gas, Telecommunications",,0,1,0,0,1,0,2
+TA544/NARWHAL SPIDER/Gold Essex,,https://malpedia.caad.fkie.fraunhofer.de/actor/narwhal_spider,Cutwail,Loader,"https://malpedia.caad.fkie.fraunhofer.de/details/win.cutwail
+https://threats.kaspersky.com/en/threat/Trojan.Win32.Cutwail/","https://ics-cert.kaspersky.com/reports/2020/06/17/steganography-in-attacks-on-industrial-enterprises/
+https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/spam-campaign-targets-japan-uses-steganography-to-deliver-the-bebloh-banking-trojan
+https://securityintelligence.com/news/narwhal-spider-uses-steganography-to-deliver-urlzone-malware-in-cutwail-spam-campaign/
+",17/06/2020,LSB b4g4,png,"imgur.com, imgbox.com",Base64 + AES + Base64,PowerShell script,Maldoc,"USA, Germany, UK, India, Russia, Japan, Vietnam, Turkey, France, Spain, Italy, North America, Europe, Asia",End User,"Bebloh/UrlZone/Shiotob, Ursnif/Gozi CRM/CRM/Dreambot/Snifula",0,1,1,0,1,0,3
+APT23/Tropic Trooper/Pirate Panda/KeyBoy/Bronze Hobart,China,"https://attack.mitre.org/groups/G0081/
+https://malpedia.caad.fkie.fraunhofer.de/actor/pirate_panda
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=Tropic%20Trooper%2C%20Pirate%20Panda%2C%20APT%2023%2C%20KeyBoy&n=1",Yahoyah,Loader,https://malpedia.caad.fkie.fraunhofer.de/details/win.yahoyah,"https://documents.trendmicro.com/assets/wp/wp-operation-tropic-trooper.pdf
+https://documents.trendmicro.com/assets/Tech-Brief-Tropic-Trooper-s-Back-USBferry-Attack-Targets-Air-gapped-Environments.pdf
+",07/05/2020,EOF,"JPEG, GIF",,XOR Encrypted,EXE,Maldoc,"Hong Kong, India, Philippines, Taiwan, Tibet, Vietnam, Asia","Banking, Defense, Government, Healthcare, High-Tech, Transportation.",,0,1,0,0,0,0,1
+APT23/Tropic Trooper/Pirate Panda/KeyBoy/Bronze Hobart,China,"https://attack.mitre.org/groups/G0081/
+https://malpedia.caad.fkie.fraunhofer.de/actor/pirate_panda
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=Tropic%20Trooper%2C%20Pirate%20Panda%2C%20APT%2023%2C%20KeyBoy&n=1",Yahoyah,Loader,https://malpedia.caad.fkie.fraunhofer.de/details/win.yahoyah,"https://documents.trendmicro.com/assets/wp/wp-operation-tropic-trooper.pdf
+https://documents.trendmicro.com/assets/Tech-Brief-Tropic-Trooper-s-Back-USBferry-Attack-Targets-Air-gapped-Environments.pdf
+",07/05/2020,DNS TXT,DNS,C2 Domain,,,Maldoc,"Hong Kong, India, Philippines, Taiwan, Tibet, Vietnam, Asia","Banking, Defense, Government, Healthcare, High-Tech, Transportation.",,0,1,0,0,0,0,1
+,,,NanoCore/Nancrat,RAT,"https://malpedia.caad.fkie.fraunhofer.de/details/win.nanocore
+https://apt.thaicert.or.th/cgi-bin/listgroups.cgi?t=NanoCore%20RAT","https://www.zscaler.com/blogs/security-research/new-distribution-mechanism-nanocore-rat
+https://blogs.protegerse.com/2021/06/14/la-rat-nanocore-aumenta-su-actividad-en-espana-durante-las-ultimas-semanas/",20/04/2020,LSB8,PNG,Resource in Dropper,XOR encrypted,Executable,"Maldoc, Web download","Spain, Europe",,"Aggah, APT33, Gorgon Group, Group5, TA2719",0,0,0,0,1,0,1
+,,,MyKings Spreader/MyKings/DarkCloud/Smominru botnet,Botnet,https://malpedia.caad.fkie.fraunhofer.de/details/win.mykings_spreader,https://www.sophos.com/en-us/medialibrary/pdfs/technical-papers/sophoslabs-uncut-mykings-report.pdf,18/12/2019,EOF,jpg,hxxp://ww3.sinaimg.cn,,PE Executable,Servers with weak passwords,"China, Taiwan, Russia, Brazil, USA, India, Japan, Spain, Asia, South America, North America, Europe",End users,"Cryptominer, RAT",0,1,1,1,1,0,4
+Tick/BRONZE BUTLER/REDBALDKNIGHT/Stalker Panda,China,"https://attack.mitre.org/groups/G0060/
+https://malpedia.caad.fkie.fraunhofer.de/actor/tick
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=Bronze%20Butler%2C%20Tick%2C%20RedBaldNight%2C%20Stalker%20Panda&n=1","Daserf/Muirim/Nioupale
+XXMM/ShadowWalker",Backdoor,"https://attack.mitre.org/software/S0187/
+https://malpedia.caad.fkie.fraunhofer.de/details/win.daserf
+https://malpedia.caad.fkie.fraunhofer.de/details/win.xxmm","https://www.trendmicro.com/en_us/research/17/k/redbaldknight-bronze-butler-daserf-backdoor-now-using-steganography.html
+https://documents.trendmicro.com/assets/pdf/Operation-ENDTRADE-TICK-s-Multi-Stage-Backdoors-for-Attacking-Industries-and-Stealing-Classified-Data.pdf
+",05/12/2019,"XXMM2 (EOF with signature?)
+ABK: EOF?
+Avenger: BMP LSB?
+Build_downer: ??","jpg, gif, bmp",,,PE Executable,"Maldoc, Watering hole, SKYSEA RCE","China, Hong Kong, Japan, Russia, Singapore, South Korea, Taiwan, USA, Asia, North America","Government, Biotechnology, Industrial chemistry, Critical infrastructure, Defense, Engineering, High-Tech, Industrial, Manufacturing, Media, Technology, International relations",Operation ENDTRADE,0,1,1,0,0,0,2
+TA551/Shathak/Gold Cabin,,"https://attack.mitre.org/groups/G0127/
+https://malpedia.caad.fkie.fraunhofer.de/actor/gold_cabin",IcedID/BokBot,Banking trojan,"https://attack.mitre.org/software/S0483/
+https://malpedia.caad.fkie.fraunhofer.de/details/win.icedid","https://blog.malwarebytes.com/threat-analysis/2019/12/new-version-of-icedid-trojan-uses-steganographic-payloads/amp/
+IceID
+https://blogs.juniper.net/en-us/threat-research/covid-19-and-fmla-campaigns-used-to-install-new-icedid-banking-malware
+https://www.group-ib.com/blog/icedid
+https://www.mimecast.com/globalassets/documents/whitepapers/taa551-treatresearch_final-1.15.21.pdf
+https://download.bitdefender.com/resources/files/News/CaseStudies/study/391/IceID-CREAT-5156.pdf
+https://www.diarioabierto.es/553624/el-troyano-iceid-ya-ha-atacado-al-11-de-las-empresas-mundiales",01/12/2019,Fake Header (Payload in IDAT chunk),png,,RC4 Encoded,"PE Executable, configuration",Word with Macro,"USA, Canada, Spain, North America, Europe",End Users,"Emotet/Geodo, Wizard Spider, Grim Spider, TrickBot, Lunar Spider/Gold Swathmore",0,0,1,0,1,0,2
+,,,Dali,PoC,https://github.com/h0mbre/Dali,https://h0mbre.github.io/Image_Based_C2_PoC/,30/11/2019,LSB R1 (diff between consecutive pixels),PNG,Imgur Album,Base64,,,,,,0,0,0,0,0,0,0
+TA551/Shathak/Gold Cabin,,"https://attack.mitre.org/groups/G0127/
+https://malpedia.caad.fkie.fraunhofer.de/actor/gold_cabin",Ursnif/Gozi CRM/CRM/Dreambot/Snifula,Banking trojan,"https://attack.mitre.org/software/S0386/
+https://malpedia.caad.fkie.fraunhofer.de/details/win.gozi","https://yoroi.company/research/ursnif-the-latest-evolution-of-the-most-popular-banking-malware/
+https://yoroi.company/research/ursnif-long-live-the-steganography/
+https://www.blackhat.com/docs/
+eu-15/materials/eu-15-Bureau-Hiding-In-Plain-Sight-Advances-In-Malware-Covert-Communication-Channels.pdf
+https://unaaldia.hispasec.com/2017/03/el-malware-bancario-ursnif-pone-el-ojo-en-espana.html",27/10/2019,LSB b4g4,png,"hxxps://i.imgur.com/TVkWKQa.png
+",,Obfuscated Powershell,"Maldoc (Excel or Word wiht Macro)
+Javascript","Italy, USA, Australia, Canada, Poland, Switzerland, UK, Germany, Japan, Spain, Europe, North America, Asia, Oceania",End users,Gozi,0,1,1,0,1,1,4
+,,,XMRig Monero Miner,CryptoMiner,https://apt.thaicert.or.th/cgi-bin/listgroups.cgi?t=XMRig,"https://blogs.blackberry.com/en/2019/10/malicious-payloads-hiding-beneath-the-wav
+https://blog.checkpoint.com/2019/10/10/september-2019s-most-wanted-malware-emotet-botnet-starts-spreading-spam-campaigns-again-after-three-month-silence/",16/10/2019,LSB1,WAV,,,Executable,,"Spain, Europe",,,0,0,0,0,1,0,1
+APT29/CVR/UNC2452/Cozy Bear/The Dukes/Nobelium/Yttrium/Dark Halo/StellarParticle,Russia,"https://attack.mitre.org/groups/G0016/
+https://malpedia.caad.fkie.fraunhofer.de/actor/unc2452
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=APT%2029%2C%20Cozy%20Bear%2C%20The%20Dukes&n=1",,,,"https://www.welivesecurity.com/wp-content/uploads/2019/10/ESET_Operation_Ghost_Dukes.pdf
+https://www2.fireeye.com/rs/848-DID-242/images/rpt-apt29-hammertoss.pdf
+https://www.volexity.com/blog/2016/11/09/powerduke-post-election-spear-phishing-campaigns-targeting-think-tanks-and-ngos/",09/10/2019,"PolyglotDuke: EOF (offset, encrypted)
+RegDuke: LSB r2g3b3 (AES encrypted)
+MiniDuke: JPEG header, invalid image
+FatDuke: PNG header, invalid image
+LiteDuke: GIF header, invalid image, BMP LSB?
+HammerDuke: JPG EOF (AES encrypted)
+PowerDuke: PNG","PolyglotDuke: png, jpg
+RegDuke: png
+MiniDuke: jpg (payload encrypted with TEA)
+FatDuke: png
+LiteDuke: gif, bmp
+PowerDuke: png","PolyglotDuke: Twitter, imgur, Reddit
+RegDuke: Dropbox
+HammerDuke: Twitter DGA to get URL, download image from there (e.g GitHub)",,"PE Executable
+FatDuke: C2 Commands
+HammerDuke: Cloud credentials for exfil","Word with Macro, Trojanized applications","Australia, Azerbaijan, Belarus, Belgium, Brazil, Bulgaria, Canada, Chechnya, China, Cyprus, Czech Republic, France, Georgia, Germany, Hungary, India, Ireland, Israel, Japan, Kazakhstan, Kyrgyzstan, Latvia, Lebanon, Lithuania, Luxembourg, Mexico, Montenegro, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Russia, Slovenia, Spain, South Korea, Turkey, Uganda, UK, Ukraine, USA, Uzbekistan, NATO, Oceania, Asia, Europe, South America, Africa, North America","Defense, Energy, Government, Law enforcement, Media, NGOs, Pharmaceutical, Telecommunications, Transportation, Think Tanks, Imagery, Embassies, Political parties, Russian drug dealers, Technology, consulting",,1,1,1,1,1,1,6
+APT15/Ke3chang/Vixen Panda/Mirage/GREF/Playful Dragon/RoyalAPT/Metushy/Lurid/Social Network Team/BRONZE PALACE,China,"https://attack.mitre.org/groups/G0004/
+https://malpedia.caad.fkie.fraunhofer.de/actor/mirage
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=Ke3chang%2C%20Vixen%20Panda%2C%20APT%2015%2C%20GREF%2C%20Playful%20Dragon&n=1",Okrum,Loader,"https://attack.mitre.org/software/S0439/
+https://malpedia.caad.fkie.fraunhofer.de/details/win.okrum",https://www.welivesecurity.com/wp-content/uploads/2019/07/ESET_Okrum_and_Ketrican.pdf,30/07/2019,Data in zTXT chunk + EOF,png,Already downloaded,TEA encrypted,DLL,,"Afghanistan, Belarus, Belgium, Brazil, Canada, Chile, China, Croatia, Czech Republic, Egypt, France, Guatemala, India, Indonesia, Iran, Israel, Kazakhstan, Kuwait, Malaysia, Mongolia, Nigeria, Pakistan, Russia, Saudi Arabia, Slovakia, Syria, Turkey, UK, Uzbekistan, Asia, Europe, South America, North America, Africa","Aerospace, Aviation, Chemical, Defense, Embassies, Energy, Government, High-Tech, Industrial, Manufacturing, Mining, Oil and gas, Utilities and Uyghur communities",,1,1,1,1,1,0,5
+APT15/Ke3chang/Vixen Panda/Mirage/GREF/Playful Dragon/RoyalAPT/Metushy/Lurid/Social Network Team/BRONZE PALACE,China,"https://attack.mitre.org/groups/G0004/
+https://malpedia.caad.fkie.fraunhofer.de/actor/mirage
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=Ke3chang%2C%20Vixen%20Panda%2C%20APT%2015%2C%20GREF%2C%20Playful%20Dragon&n=1",Royal DNS,Backdoor,https://malpedia.caad.fkie.fraunhofer.de/details/win.royal_dns,https://www.welivesecurity.com/wp-content/uploads/2019/07/ESET_Okrum_and_Ketrican.pdf,30/07/2019,DNS TXT,DNS,C2 Domain,,C2 commands,,"Afghanistan, Belarus, Belgium, Brazil, Canada, Chile, China, Croatia, Czech Republic, Egypt, France, Guatemala, India, Indonesia, Iran, Israel, Kazakhstan, Kuwait, Malaysia, Mongolia, Nigeria, Pakistan, Russia, Saudi Arabia, Slovakia, Syria, Turkey, UK, Uzbekistan, Asia, Europe, South America, North America, Africa","Aerospace, Aviation, Chemical, Defense, Embassies, Energy, Government, High-Tech, Industrial, Manufacturing, Mining, Oil and gas, Utilities and Uyghur communities",,1,1,1,1,1,0,5
+,,,,,,"https://threatpost.com/rare-steganography-hack-can-compromise-fully-patched-websites/146701/
+https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/hiding-webshell-backdoor-code-in-image-files/",26/07/2019,EXIF Comment,jpg,,,PHP,,,,,0,0,0,0,0,0,0
+Platinum/TwoForOne,China,"https://attack.mitre.org/groups/G0068/
+https://malpedia.caad.fkie.fraunhofer.de/actor/platinum
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=Platinum&n=1",Titanium,Backdoor,https://apt.thaicert.or.th/cgi-bin/listgroups.cgi?t=Titanium,"https://securelist.com/platinum-is-back/91135/
+https://securelist.com/titanium-the-platinum-group-strikes-again/94961/",05/06/2019,HTML attributes order + space/tabs,"HTML, PNG",,Encrypted with AES-256,C2 Commands,,"China, India, Indonesia, Malaysia, Singapore, Thailand, Vietnam, Asia","Defense, Financial, Government, Telecommunications, Intelligence agencies, Diplomatic institutions",,0,1,0,0,0,0,1
+APT37/ScarCruft/Reaper/Group123/Red Eyes/Ricochet Chollima/Venus 121/InkySquid,North Korea,"https://attack.mitre.org/groups/G0067/
+https://malpedia.caad.fkie.fraunhofer.de/actor/apt37
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=Reaper%2C%20APT%2037%2C%20Ricochet%20Chollima%2C%20ScarCruft&n=1",,espionage,,"https://securelist.com/scarcruft-continues-to-evolve-introduces-bluetooth-harvester/90729/
+https://blog.talosintelligence.com/2017/04/introducing-rokrat.html
+https://unit42.paloaltonetworks.com/unit42-nokki-almost-ties-the-knot-with-dogcall-reaper-group-uses-new-malware-to-deploy-rat/",13/05/2019,"EOF, TypeConfussion","jpg, png","buttyfly.000webhostapp.com
+planar-progress.000webhostapp.com
+hxxp://discgolfglow.com/wp-content/plugins/maintenance/images/worker.jpg",,PE Executable,,"South Korea, Japan, Vietnam, Russia, Nepal, China, India, Romania, Kuwait, Camboia, Hong Kong, UK, USA, Asia, Europe, North America","Chemical, Electronics, Manufacturing, Aerospace, Automotive, Healthcare, Financial, Government, Healthcare, High-Tech, Technology, Transportation","Rokrat, Nokki, Dogcall, Final1stSpy",0,1,1,0,1,0,3
+Turla/Group 88/Waterbug/Snake/Krypton/Venomous Bear/Belugasturgeon/Wraith/Uroburos/Pfinet/Hippo Team/Popeye/SIG23/Iron Hunter/Makersmark,Russia,"https://attack.mitre.org/groups/G0010/
+https://malpedia.caad.fkie.fraunhofer.de/actor/turla_group
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=Turla%2C%20Waterbug%2C%20Venomous%20Bear&n=1",LightNeuron/Neptun,Backdoor,"https://attack.mitre.org/software/S0395/
+https://malpedia.caad.fkie.fraunhofer.de/details/win.lightneuron","https://www.welivesecurity.com/wp-content/uploads/2019/05/ESET-LightNeuron.pdf
+https://securelist.lat/satellite-turla-apt-command-and-control-in-the-sky/74858/",02/05/2019,Start of Scan + Quantization table signature,jpg,Exchange Server,Encrypted with AES256,"C2 Commands, Data exfil",,"Afghanistan, Algeria, Armenia, Australia, Austria, Azerbaijan, Belarus, Belgium, Bolivia, Botswana, Brazil, China, Chile, Czech Republic, Denmark, Ecuador, Estonia, Finland, France, Georgia, Germany, Hong Kong, Hungary, India, Indonesia, Iran, Iraq, Italy, Jamaica, Jordan, Kazakhstan, Kyrgyzstan, Kuwait, Latvia, Mexico, Netherlands, Pakistan, Paraguay, Poland, Qatar, Romania, Russia, Serbia, Spain, Saudi Arabia, South Africa, Sweden, Switzerland, Syria, Tajikistan, Thailand, Tunisia, Turkmenistan, UK, Ukraine, Uruguay, USA, Uzbekistan, Venezuela, Vietnam, Yemen, Asia, Africa, Europe, Oceania, South America, North America","Government, Embassies, Military, Education, Research, Pharmaceutical, Aerospace, Defense, Embassies, Energy, High-Tech, IT, Media, NGOs, Research, Retail",,1,1,1,1,1,1,6
+GE Power/Xiaoqing Zheng,China,,,Exfil,,https://www.justice.gov/opa/pr/former-ge-engineer-and-chinese-businessman-charged-economic-espionage-and-theft-ge-s-trade,23/04/2019,,"""sunset"" (jpeg)",,,Secret Documents,,"USA, North America",GE Power,,0,0,1,0,0,0,1
+,,,Loki Password Stealer/LokiPWS/LokiBot/Loki,Credentials stealer,"https://attack.mitre.org/software/S0447/
+https://malpedia.caad.fkie.fraunhofer.de/details/win.lokipws
+https://apt.thaicert.or.th/cgi-bin/listgroups.cgi?t=LokiBot","https://threatpost.com/lokibot-trojan-spotted-hitching-a-ride-inside-png-files/143491/
+https://securitynews.sonicwall.com/xmlpost/loki-bot-started-using-image-steganography-and-multi-layered-protection/
+https://www.trendmicro.com/en_us/research/19/h/lokibot-gains-new-persistence-mechanism-uses-steganography-to-hide-its-tracks.html
+https://www.fortinet.com/blog/threat-research/latest-global-covid-19-coronavirus-spearphishing-campaign-drops-infostealer
+https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/spammed-png-file-hides-lokibot/",05/04/2019,"EOF
+BMP LSB R4G4B4P4 (length in first 10 pixels)","png, bmp","Sent as an mail attachment, installed by malware",EOF: Encrypted Zipx,PE Executable,Word with Macro,"Turkey, Portugal, Germany, Austria, USA, Belgium, Puerto Rico, Italy, Canada, Spain, Asia, Europe, North America, South America",End users,Gorgon Group,0,1,1,1,1,0,4
+DeathStalker/Evilnum?,,https://malpedia.caad.fkie.fraunhofer.de/actor/evilnum,CardinalRAT,RAT,"https://attack.mitre.org/software/S0348/
+https://malpedia.caad.fkie.fraunhofer.de/details/win.cardinal_rat
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=Evilnum&n=1",https://unit42.paloaltonetworks.com/cardinal-rat-sins-again-targets-israeli-fin-tech-firms/,19/03/2019,LSB8,BMP,Image in executable,XOR encrypted,DLL,,"Albania, Australia, Belgium, Canada, Cyprus, Czech Republic, Israel, Italy, UK, Ukraine, Switzerland, Turkey, Russia, Lebanon, Jordan, AUE, China, Taiwan, India, Argentina, Europe, Oceania, North America, Asia, South America",FinTech,,0,1,1,1,1,1,5
+,,,Powload,Malware kit,https://www.trendmicro.com/vinfo/tw/threat-encyclopedia/malware/Trojan.W97M.POWLOAD.THBBHBO,https://www.trendmicro.com/en_us/research/19/c/from-fileless-techniques-to-using-steganography-examining-powloads-evolution.html,12/03/2019,LSB b4g4,png,hxxps://images2.imgbox.com/90/f1/gat2MVsK_o.png,,Obfuscated Powershell,Word with Macros,"South Korea, North America, Japan, Asia, North America",End users,,0,1,1,0,0,0,2
+Pinchy Spider,,https://malpedia.caad.fkie.fraunhofer.de/actor/pinchy_spider,GandCrab/GrandCrab,Ransomware,https://malpedia.caad.fkie.fraunhofer.de/details/win.gandcrab,https://www.bromium.com/gandcrab-ransomware-code-hiding-in-image/,08/02/2019,LSB b4g4,png,"hxxps://images2.imgbox.com/55/c4/rBzwpAzi_o.png
+hxxps://i.postimg.cc/PH6QvFvF/mario.png?dl=1",,Obfuscated Powershell,Maldoc,"USA, UK, Czech Republic, Germany, Spain, North America, Europe",End users,Gozi CRM,0,0,1,0,1,0,2
+APT32/OceanLotus/SeaLotus/OceanBuffalo/Bismuth,Vietnam,"https://attack.mitre.org/groups/G0050/
+https://malpedia.caad.fkie.fraunhofer.de/actor/apt32
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=APT%2032%2C%20OceanLotus%2C%20SeaLotus",,Loader,,"https://www.blackberry.com/content/dam/bbcomv4/blackberry-com/en/company/research-and-intelligence/OceanLotus-Steganography-Malware-Analysis-White-Paper.pdf
+https://www.fireeye.com/blog/threat-research/2017/05/cyber-espionage-apt32.html",04/02/2019,LSB b2g3r3 + EOF ,png,Image in Dropper,AES-128 encrypted and XOR-obfuscated,Obfuscated Powershell,"Word, ActiveMime files with Macros","Vietnam, Philippines, Laos, Camboia, Germany, USA, China, Australia, Japan, Australia, Bangladesh, Brunei, Denmark, India, Indonesia, Iran, Malaysia, Myanmar, Nepal, Netherlands, Singapore, South Korea, Thailand, UK, Vietnam, Asia, Europe, North America, Oceania","Manufacturing, Network Security, Media, Technology Infrastructure, Consumer products, Hospitality,  Defense, Financial, Government, High-Tech, Retail, Telecommunications, Uyghurs, Dissidents, Journalists","Denes, Remy/WindShield",0,1,1,0,1,1,4
+,,,VeryMal,Trojan,,https://blog.confiant.com/confiant-malwarebytes-uncover-steganography-based-ad-payload-that-drops-shlayer-trojan-on-mac-cd31e885c202,23/01/2019,LSB8 ,png (jpg extension),,,Javascript,Flash update,"USA, North America",End User,,0,0,1,0,0,0,1
+,,,TROJAN.MSIL.BERBOMTHUM.AA,Trojan,https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/trojan.msil.berbomthum.aa,https://www.trendmicro.com/en_us/research/18/l/cybercriminals-use-malicious-memes-that-communicate-with-malware.html,14/12/2018,image name in HTML?,jpg,hxxps://twitter.com/b0mb3rmc,,C2 Commands,,,,Trojan.MSIL.BERBOMRUN.AA,0,0,0,0,0,0,0
+,,,,,,"https://blog.sucuri.net/2018/07/hiding-malware-inside-images-on-googleusercontent.html
+https://blog.sucuri.net/2015/11/exif-php-joomla-backdoor.html",18/07/2018,EXIF Comment,jpg,hxxps://lh3.googleusercontent.com/-svRm4i5Bs90/VsFaosQPKUI/AAAAAAAABew/03oHWkCEsN8/w140-h140-p/pacman.jpg,Base64,PHP,,,,,0,0,0,0,0,0,0
+ISIS/MuslimCrypt,,,,Covert communication,,"https://www.vice.com/en/article/ne4x7w/muslim-crypt-jihadi-encryption-app
+https://www.wired.com/story/muslimcrypt-steganography/?mbid=social_twitter_onsiteshare",26/01/2018,,"jpg, tif",,,Text messages,,,,,0,0,0,0,0,0,0
+Barrett Adams ,,,Invoke-PSImage,POC,https://attack.mitre.org/software/S0231/,https://github.com/peewpw/Invoke-PSImage,17/12/2017,LSB b4g4,png,,Raw,PowerShell script,,,,,0,0,0,0,0,0,0
+,China,,SunOrcal,Loader,https://malpedia.caad.fkie.fraunhofer.de/details/win.sunorcal,https://unit42.paloaltonetworks.com/unit42-sunorcal-adds-github-steganography-repertoire-expands-vietnam-myanmar/,20/11/2017,"Github README.MD
+LSB8","HTML
+BMP","GitHub
+www.flyoutside.com",XOR encrypted,"C2 URL
+DLL",Maldoc,"Vietnam, Myanmar, Tibet, Uyghurs, Falun Gong, Taiwan, China, Asia",,"Reaver, Surtr",0,1,0,0,0,0,1
+,,,,CryptoMiner,,"https://securityintelligence.com/steganography-a-safe-haven-for-malware/
+https://malware.news/t/steganography-a-safe-haven-for-malware/16410",16/11/2017,EOF,JPEG,,,Shell script,,,EndUsers,,0,0,0,0,0,0,0
+,,,SyncCrypt,Ransomware,https://malpedia.caad.fkie.fraunhofer.de/details/win.synccrypt,https://www.bleepingcomputer.com/news/security/synccrypt-ransomware-hides-inside-jpg-files-appends-kk-extension/,16/08/2017,EOF,jpg,"hxxps://image.ibb.co
+hxxp://sm.uploads.im
+hxxp://185.10.202.115",Zip,Executable,Windows Script File (.WSF),,End Users,,0,0,0,0,0,0,0
+CIA/Kevin Patrick Mallory,China,,,Covert communication,,"https://www.washingtonpost.com/local/public-safety/a-former-cia-officer-a-chinese-spy-gadget-and-allegations-of-espionage/2018/06/01/ac2955da-64f6-11e8-99d2-0d678ec08c2f_story.html
+https://www.justice.gov/opa/pr/former-cia-officer-sentenced-prison-espionage",22/06/2017,,"""horses grazing in front of a mountain range"" (jpeg?)",WeChat,,Secret Documents,,"USA, North America",Intelligence Services,,0,0,1,0,0,0,1
+,,,"StegBaus, KazyLoader",Loader,,"https://unit42.paloaltonetworks.com/unit42-stegbaus-because-sometimes-xor-just-isnt-enough/
+https://securelist.com/a-flawed-ransomware-encryptor/69481/",10/02/2017,LSB8,png,Image in .NET Dropper,AES-128,Configuration + Executable,,,,"DarkComet, LuminosityLink RAT, Pony, ImmenentMonitor",0,0,0,0,0,0,0
+APT15/Ke3chang/Vixen Panda/Mirage/GREF/Playful Dragon/RoyalAPT/Metushy/Lurid/Social Network Team/BRONZE PALACE,China,"https://attack.mitre.org/groups/G0004/
+https://malpedia.caad.fkie.fraunhofer.de/actor/mirage
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=Ke3chang%2C%20Vixen%20Panda%2C%20APT%2015%2C%20GREF%2C%20Playful%20Dragon&n=1",ZeroT,Loader,https://malpedia.caad.fkie.fraunhofer.de/details/win.zerot,"https://www.proofpoint.com/us/threat-insight/post/APT-targets-russia-belarus-zerot-plugx
+https://securelist.com/steganography-in-contemporary-cyberattacks/79276/",02/02/2017,LSB 1-4,bmp,www.versig.net,RC4 encryption,"DLL, EXE",Maldoc,"Afghanistan, Belarus, Belgium, Brazil, Canada, Chile, China, Croatia, Czech Republic, Egypt, France, Guatemala, India, Indonesia, Iran, Israel, Kazakhstan, Kuwait, Malaysia, Mongolia, Nigeria, Pakistan, Russia, Saudi Arabia, Slovakia, Syria, Turkey, UK, Uzbekistan, Asia, Europe, South America, North America, Africa","Aerospace, Aviation, Chemical, Defense, Embassies, Energy, Government, High-Tech, Industrial, Manufacturing, Mining, Oil and gas, Utilities and Uyghur communities",PlugX/Destroy RAT/Kaba/Korplug/Sogu/TIGERPLUG ,1,1,1,1,1,0,5
+,,,Sundown,Exploit Kit,https://www.mcafee.com/enterprise/en-us/threat-center/threat-landscape-dashboard/exploit-kits-details.sundown-exploit-kit.html,https://www.trendmicro.com/en_us/research/16/l/updated-sundown-exploit-kit-uses-steganography.html,29/12/2016,LSB R3G2B3,png,,,Executable,,"Japan, Canada, France, USA, Spain, Australia, Germany, Italy, UK, Turkey, Asia, North America, Europe, Oceania",,CryLocker,0,1,1,0,1,1,4
+,,,DNSChanger,Exploit Kit,https://malpedia.caad.fkie.fraunhofer.de/details/win.dnschanger,"https://www.proofpoint.com/us/blog/threat-insight/home-routers-under-attack-dnschanger-malware-windows-android-devices
+https://www.lavanguardia.com/20120216/54255838075/inteco-alerta-sobre-el-virus-troyano-dns-changer.html",13/12/2016,"Comment, PNG with jpg extension",PNG,Ad server,,"Javascript, AES Key, Router fingerprints",Malicious Ads,"USA, Indonesia, Brazil, Egypt, India, Argentina, Russia, Poland, UAE, Venezuela, Spain, North America, Asia, South America, Africa, Europe",End Users,,1,1,1,1,1,0,5
+AdGholas,,,Astrum/Stegano,Exploit Kit,,"https://www.welivesecurity.com/2016/12/06/readers-popular-websites-targeted-stealthy-stegano-exploit-kit-hiding-pixels-malicious-ads/
+https://www.proofpoint.com/us/threat-insight/post/massive-adgholas-malvertising-campaigns-use-steganography-and-file-whitelisting-to-hide-in-plain-sight",06/12/2016,LSB on Alpha channel,png,Ad network,Payload byte encoded in two alpha pixels: ((255 - a1)/2 * 10 + (255 - a2)/2 * 1) + 32,Javascript,Ad banner,"Spain, UK, Australia, Canada, Europe, Oceania, North America",End Users,"Ursnif, Ramnit",0,0,1,0,1,1,3
+,,,CryLocker,Ransomware,https://malpedia.caad.fkie.fraunhofer.de/details/win.crylocker,"https://blog.trendmicro.com/trendlabs-security-intelligence/picture-perfect-crylocker-ransomware-sends-user-information-as-png-files/
+https://www.bleepingcomputer.com/news/security/the-crylocker-ransomware-communicates-using-udp-and-stores-data-on-imgur-com/",09/09/2016,"PNG header, invalid image",png,Imgur,,Upload info about infected machine and list of encrypted files to C2,,,End Users,"RIG Exploit Kit, Sage",0,0,0,0,0,0,0
+,,,Instegogam,POC,,https://github.com/endgameinc/instegogram,05/08/2016,DCT,JPEG,Instagram,,Text,,,,,0,0,0,0,0,0,0
+,,,Cerber ,Ransomware,https://malpedia.caad.fkie.fraunhofer.de/details/win.cerber,"https://www.netskope.com/es/blog/anatomy-ransomware-attack-cerber-uses-steganography-hide-plain-sight
+https://humanit.asia/ll-nsucmhxq/
+https://www.incibe.es/protege-tu-empresa/avisos-seguridad/ransomware-cerber-office-365
+https://news.sophos.com/es-es/2017/06/20/espana-se-encuentra-top-10-paises-europeos-mayor-actividad-ransomware/",13/07/2016,EOF?,JPEG,"solidaritedeproximite.org
+92.222.104.182",,Executable,Maldoc,"UK, Belgium, Netherlands, USA, Italy, France, Germany, Australia, Taiwan, Canada, Singapore, China, Spain, Europe, North America, Oceania, Asia",End Users,,0,1,1,0,1,1,4
+,,,TeslaCrypt/cryptesla,Ransomware,https://malpedia.caad.fkie.fraunhofer.de/details/win.teslacrypt,"https://www.mcafee.com/blogs/other-blogs/mcafee-labs/teslacrypt-arrives-via-neutrino-exploit-kit/
+https://www.sentinelone.com/blog/hiding-code-inside-images-malware-steganography/
+https://www.kaspersky.es/resource-center/threats/teslacrypt",15/03/2016,Comment in HTTP 404 error message,HTML,C2,,C2 commands,,"USA, Germany, Spain, Italy, France UK, North America, Europe",End Users,"Neutrino EK, CryptoLocker",0,0,1,0,1,0,2
+,,,StegoLoader/Gatak,Loader,"https://malpedia.caad.fkie.fraunhofer.de/details/win.stegoloader
+https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/tspy_gatak.gtk
+https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?Name=Trojan:Win32/Gatak.DR&ThreatID=-2147278948#tab=1","https://www.secureworks.com/research/stegoloader-a-stealthy-information-stealer
+https://www.virusbulletin.com/virusbulletin/2016/04/how-it-works-steganography-hides-malware-image-files/",15/06/2015,LSB r1g1b1,png,"hxxp://www.imagesup.net
+hxxp://hostthenpost.org",RC4 Encrypted,"Executable
+C2 commands",Keygen,,,,0,0,0,0,0,0,0
+,,,DarkComet/Breut/Fynloski/Klovot/DarkKomet/Krademok/FYNLOS,RAT,"https://attack.mitre.org/software/S0334/
+https://malpedia.caad.fkie.fraunhofer.de/details/win.darkcomet","https://blogs.cisco.com/security/talos/reversing-multilayer-net-malware
+https://www.trendmicro.com/en_us/research/15/e/steganography-and-malware-concealing-code-and-cc-traffic.html
+https://www.sysnet.ucsd.edu/sysnet/miscpapers/darkmatter-www20.pdf",11/05/2015,LSB8,bmp,Image in .NET Dropper,XOR-encrypted,Executable,,"Turkey, Russia, Ukraine, France, Brazil, Italy, USA, Germany, Ivory Coast, India, Netherlands, Philippines, Trinidad and Tobago, Asia, Europe, South America, North America, Africa",,"SilverTerrier, APT33, APT38",1,1,1,1,1,0,5
+,,,VBKlip,Banking malware,,"https://devcentral.f5.com/s/articles/vbklip-banking-trojan-goes-man-in-the-browser
+https://www.trendmicro.com/en_us/research/15/e/steganography-and-malware-why-and-how.html
+",30/04/2015,HTTP 404 header,HTTP,,,Account number,,"Poland, Europe",End Users,,0,0,0,0,1,0,1
+Lunar Spider/Gold Swathmore,,https://malpedia.caad.fkie.fraunhofer.de/actor/lunar_spider,Vawtrak/Neverquest,Banking trojan,https://malpedia.caad.fkie.fraunhofer.de/details/win.vawtrak,"https://cdn2.hubspot.net/hubfs/4650993/Blog_Content/Avg/Signal/avg_technologies_vawtrak_banking_trojan_report.pdf
+https://www.cs.ox.ac.uk/andrew.ker/docs/ADK67B.pdf
+https://www.redeszone.net/2015/03/26/vawtrak-un-malware-que-esta-robando-contrasenas-en-todo-el-mundo/",24/03/2015,LSB1,ico,,XOR encrypted,List of C2,Phishing,"Germany, Poland, Japan, USA, Portugal, UK, Spain, Europe, Asia, North America",End users,"Gozi CRM, Poni",0,1,1,0,1,0,3
+,China,,,Banking malware,https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/TSPY_BANKER.YYSI,https://blog.trendmicro.com/trendlabs-security-intelligence/malware-campaign-targets-south-korean-banks-uses-pinterest-as-cc-channel/,15/12/2014,Pinterest comments,HTML,Pinterest,,C2 IP address,,"South Korea, Asia",Banking,,0,1,0,0,0,0,1
+,Russia,,Lurk,Loader,"https://malpedia.caad.fkie.fraunhofer.de/details/win.lurk
+https://nakedsecurity.sophos.com/2016/06/06/russia-arrests-50-shuts-down-5-year-25m-cyber-bank-robbery/",https://www.secureworks.com/research/malware-analysis-of-the-lurk-downloader,07/08/2014,"LSB8? (vertical encoding)
+LSB1",bmp,"bmp in DLL resources
+",,"Executable
+URL to malware",,Russia,End users,,0,0,0,0,0,0,0
+,,,Zberp/ZeusVM/VMzeus,Banking malware,https://malpedia.caad.fkie.fraunhofer.de/details/win.vmzeus,https://securityintelligence.com/new-zberp-trojan-discovered-zeus-zbot-carberp/,22/05/2014,EOF,jpg,,Base64,Configuration,,"USA, UK, Australia, North America, Europe, Oceania",End Users,"Zeus, Carberp",0,0,1,0,1,1,3
+,,,Zeus/ZBOT,Banking malware,"https://malpedia.caad.fkie.fraunhofer.de/details/win.zeus
+https://zeusmuseum.com/","https://blog.trendmicro.com/trendlabs-security-intelligence/sunsets-and-cats-can-be-hazardous-to-your-online-bank-account/
+https://blog.malwarebytes.com/threat-analysis/2014/02/hiding-in-plain-sight-a-story-about-a-sneaky-banking-trojan/",30/03/2014,EOF,jpg,,"Base64, RC4, XOR",List of bank targets,,"Germany, South Africa, India, Argentina, Austria, Brazil, Chile, Spain, France, UK, Italy, Kuwait, Netherlands, Mexico, Saudi Arabia, USA, Sweden, Europe, Africa, Asia, South America, North America",End Users,,1,1,1,1,1,0,5
+DeathStalker/Evilnum?,,https://malpedia.caad.fkie.fraunhofer.de/actor/evilnum,Janicab,Trojan,"https://malpedia.caad.fkie.fraunhofer.de/details/osx.janicab
+https://apt.thaicert.or.th/cgi-bin/listgroups.cgi?t=Janicab",https://archive.f-secure.com/weblog/archives/00002576.html,15/07/2013,Youtube comments,HTML,YouTube,,C2 IP address,.LNK file,"Albania, Australia, Belgium, Canada, Cyprus, Czech Republic, Israel, Italy, UK, Ukraine, Switzerland, Turkey, Russia, Lebanon, Jordan, AUE, China, Taiwan, India, Argentina, Europe, Oceania, North America, Asia, South America",FinTech,,0,1,1,1,1,1,5
+,,,FAKEM RAT/Terminator RAT,RAT,https://malpedia.caad.fkie.fraunhofer.de/details/win.terminator_rat,https://www.trendmicro.de/cloud-content/us/pdfs/security-intelligence/white-papers/wp-fakem-rat.pdf,16/01/2013,Hides traffic as MSN or Yahoo Messenger,,,,,Maldoc,,,,0,0,0,0,0,0,0
+,,,Morto/Mustan,Worm,"https://malpedia.caad.fkie.fraunhofer.de/details/win.morto
+https://www.trendmicro.com/vinfo/tw/threat-encyclopedia/malware/MORTO","https://blog.trendmicro.com/trendlabs-security-intelligence/weak-passwords-leave-users-vulnerable-to-pe_mustan-a/
+https://www.trendmicro.com/en_us/research/15/e/steganography-and-malware-concealing-code-and-cc-traffic.html",18/10/2012,DNS TXT,DNS,C2 domain,,C2 Commands,RDP,,,,0,0,0,0,0,0,0
+Al-Qaeda/Maqsood Lodin,,,,Hidden Data,,https://edition.cnn.com/2012/04/30/world/al-qaeda-documents-future/index.html,01/05/2012,,Video,,,Secret Documents,,"Germany, Europe",,,0,0,0,0,1,0,1
+,,,Android.FakeRegSMS.B,Dialer,,https://forensics.spreitzenbarth.de/2012/02/03/detailed-analysis-of-android-fakeregsms-b/,03/02/2012,tEXt chunk,PNG,,XOR encrypted,Configuration,Icon in App,,,,0,0,0,0,0,0,0
+Unit 8200/Duqu Group,Israel,"https://malpedia.caad.fkie.fraunhofer.de/actor/unit_8200
+https://www.cfr.org/cyber-operations/duqu-20",Duqu,Malware,"https://attack.mitre.org/software/S0038/
+https://malpedia.caad.fkie.fraunhofer.de/details/win.duqu",https://docs.broadcom.com/docs/w32-duqu-11-en,23/11/2011,EOF,jpg,From C2C and image embeded on DLL,bzip2 then XOR encrypted,C2 commands and data exfil,Word with 0-Day,"France, Netherlands, Switzerland, Ukraine, India, Iran, Sudan, Vietnam, Austria, Hungary, Indonesia, UK, China, Russia, Germany, Europe, Asia","Industrial infrastructure, System manufacturers, Kaspersky",Stuxnet,0,1,0,0,1,0,2
+,,,Alureon/olmarik/Pihar/TDL-4/TDSS/wowlik,Bootkit,https://malpedia.caad.fkie.fraunhofer.de/details/win.alureon,"https://web.archive.org/web/20111230140246/hxxp://blogs.technet.com/b/mmpc/archive/2011/09/25/a-tale-of-grannies-chinese-herbs-tom-cruise-alureon-and-steganography.aspx
+https://securelist.com/tdl4-top-bot/36152/",25/09/2011,EOF?,JPEG,"imageshack.us, Livejournal, Wordpress",,Configuration,,"USA, India, Indonesia, UK, Germany, Canada, France, Italy, Mexico, Pakistan, Vietnam, Spain, Brazil, Romania, Australia, North America, Asia, Europe, South America, Oceania",,DNSChanger,0,1,1,1,1,1,5
+APT1/Comment Crew/Comment Group/Comment Panda/Byzantine Candor/TG-8223/Brown Fox/Shanghai Group,China,"https://attack.mitre.org/groups/G0006/
+https://malpedia.caad.fkie.fraunhofer.de/actor/comment_crew
+https://apt.thaicert.or.th/cgi-bin/showcard.cgi?g=Comment%20Crew%2C%20APT%201&n=1",,Espionage,,"https://web.archive.org/web/20111109000410/hxxp://www.symantec.com/connect/blogs/truth-behind-shady-rat
+https://www.trendmicro.com/en_us/research/15/e/steganography-and-malware-concealing-code-and-cc-traffic.html",04/08/2011,"LSB?, HTML comments","HTML, jpg?",C2 Server,,C2 commands,"Maldoc (Word, Excel, PowerPoint, PDF)","Belgium, Canada, Denmark, France, Germany, Hong Kong, India, Indonesia, Israel, Japan, Luxembourg, Norway, Singapore, South Africa, South Korea, Switzerland, Taiwan, UAE, UK, USA, Vietnam, Europe, North America, Asia, Africa","Aerospace, Chemical, Construction, Defense, Education, Energy, Engineering, Entertainment, Financial, Food and Agriculture, Government, Healthcare, High-Tech, IT, Manufacturing, Media, Mining, Non-profit organizations, Research, Satellites, Telecommunications, Transportation, Legal",Operation ShadyRAT,1,1,1,0,1,0,4
+,,,VinSelf,Backdoor,,https://web.archive.org/web/20101127154943/hxxp://blog.fireeye.com/research/2010/11/winself-a-new-backdoor-in-town.html,23/11/2010,Fake GIF header ,HTTP,C2,XOR encrypted,Information about infected machine,,"USA, Spain, North America, Europe",,,0,0,1,0,1,0,2
+ISIS/Technical Mujahid/Secret Information: Hide Secrets Inside of Pictures,,,,Covert communication,,http://staging.rsis.edu.sg/wp-content/uploads/2014/07/Report_Steganography_final.pdf,26/03/2007,"LSB, EOF",,,,,,,,,0,0,0,0,0,0,0
