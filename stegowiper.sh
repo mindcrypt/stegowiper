@@ -1,8 +1,6 @@
 #!/bin/bash
 #
-# stegoKick v0.2-20210118
-#
-# Cleans stego information from image files
+# stegowiper v0.1 - Cleans stego information from image files
 #
 # Usage: see help()
 
@@ -50,8 +48,8 @@ function show_help()
   local myself
   myself=$(basename "$0")
   
-  echo "stegoKick v0.1 - Cleans stego information from image files"
-  echo "                    (png, jpg, gif, bmp, svg)"
+  echo "stegoWiper v0.1 - Cleans stego information from image files"
+  echo "                  (png, jpg, gif, bmp, svg)"
   echo
   echo "Usage: ${myself} [-hvc <comment>] <input file> <output file>"
   echo
