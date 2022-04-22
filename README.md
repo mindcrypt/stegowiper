@@ -11,18 +11,22 @@ Moreover, our active attack allows us to disrupt any steganography payload from 
 # Usage & Parameters
 
 ```
-examples
+stegoWiper v0.1 - Cleans stego information from image files
+                  (png, jpg, gif, bmp, svg)
+
+Usage: ${myself} [-hvc <comment>] <input file> <output file>
+
+Options:
+  -h              Show this message and exit
+  -v              Verbose mode
+  -c <comment>    Add <comment> to output image file
 ```
 
 # Examples - Breaking steganography
 
 ```
-examples
+stegowiper.sh -c stegoCleaned ursnif.png ursnif_clean.png
 ```
-
-# Future work. Doing
-- We are working to support the ICAP protocol. Stegokick using ICAP could connect to other systems to block stegomalware in real traffic.
-
 
 # Author & license
 
