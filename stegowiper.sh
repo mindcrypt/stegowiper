@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# stegowiper v0.1 - Cleans stego information from image files
+# stegoWiper v0.1 - Cleans stego information from input image file
 #
 # Usage: see help()
 
