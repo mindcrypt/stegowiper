@@ -4,7 +4,9 @@
 #
 # Usage: see help()
 #
-# Copyright (C) 2022 Manuel Urueña <muruenya@gmail.com>
+# Copyright (C) 2022 - Madrid Spain
+# Dr. Manuel Urueña <muruenya@gmail.com>
+# Dr. Alfonso Muñoz @mindcrypt
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU Lesser General Public
