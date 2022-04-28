@@ -25,7 +25,7 @@ Options:
 # Examples - Breaking steganography
 
 ```
-stegowiper.sh -c stegoCleaned ursnif.png ursnif_clean.png
+stegowiper.sh -c "stegoWiped" ursnif.png ursnif_clean.png
 ```
 
 # Author & license
